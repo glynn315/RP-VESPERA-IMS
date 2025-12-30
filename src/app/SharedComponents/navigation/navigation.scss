@@ -1,0 +1,24 @@
+.navigation{
+    height: 100%;
+    ul{
+        li{
+            padding: 18px;
+            cursor: pointer;
+            font-weight: 400;
+            font-size: 18px;
+            transition: .3s;
+            &:hover{
+                background-color: #EAE1D4;
+                color: #0A352D;
+                border-bottom-left-radius:40px ;
+                border-top-left-radius:40px ;
+                margin-left: 10px;
+            }
+        }
+        &:last-child{
+            &:hover{
+                background-color: unset !important;
+            }
+        }
+    }
+}

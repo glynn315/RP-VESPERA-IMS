@@ -1,1 +1,15 @@
-<p>navigation works!</p>
+<div class="page bg-accent flex-col gap-4">
+    <header class="w-full m-4 text-white font-nunito !text-xl mt-7">RP Vespera - IMS</header>
+    <div class="navigation text-primary font-nunito flex-col justify-between mb-3">
+        <ul>
+            <li class="flex-row items-center gap-3" routerLink="/home/dashboard"><lucide-icon [img]="HomeIco"></lucide-icon> Home</li>
+            <li class="flex-row items-center gap-3" routerLink="/home/issue"><lucide-icon [img]="IssueIcon"></lucide-icon> Issues</li>
+            <li class="flex-row items-center gap-3" routerLink="/home/history"><lucide-icon [img]="HistoryIcon"></lucide-icon> History</li>
+            <li class="flex-row items-center gap-3" routerLink="/home/projects"><lucide-icon [img]="ProjectIcon"></lucide-icon> Projects</li>
+            <li class="flex-row items-center gap-3" routerLink="/home/reports"><lucide-icon [img]="UserReportIcon"></lucide-icon> Reports</li>
+        </ul>
+        <ul>
+            <li class="flex-row items-center gap-3"><lucide-icon [img]="UserIcon"></lucide-icon> Profile</li>
+        </ul>
+    </div>
+</div>
